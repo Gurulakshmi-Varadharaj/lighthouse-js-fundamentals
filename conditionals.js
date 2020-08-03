@@ -25,7 +25,7 @@ console.log("Make sure you pick out a scarf!");
 console.log("Short sleeves are fine.");
 }*/
 
-const temperature = 12;
+const temperature = -5;
 
 if (temperature < 0) {
   console.log("Make sure you pick out a scarf!");
