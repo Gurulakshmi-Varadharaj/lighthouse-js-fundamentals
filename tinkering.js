@@ -43,3 +43,27 @@ console.log(total.toFixed(2));
 
 
 console.log(thingOne + thingTwo);*/
+
+/*const amounts = [61.00, 52.25, 112.99, 5.00];
+var total = 0;
+
+/*for (let i = 0; i < amounts.length; i++) {
+  total += amounts[i];
+
+}
+
+console.log("Order total is " + total);*/
+
+/*for (let amount of amounts) {
+  total += amount;
+}
+console.log("Order total is " + total);*/
+
+//var turnMeIntoAString = ["U", "d", "a", "c", "i", "t", "y"];
+
+//console.log(turnMeIntoAString.join(''));
+words = ["cat", "in", "hat"];
+
+words.forEach(function (word, num, all) {
+  console.log("Word " + num + " in " + all.toString() + " is " + word);
+});
